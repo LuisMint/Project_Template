@@ -119,6 +119,9 @@ namespace FMODUnity
                 }
 
                 defaultBankFolder = RuntimeUtils.GetCommonPlatformPath(Path.Combine(settings.SourceBankPath, platform.BuildDirectory));
+                //defaultBankFolder = "../Project_Template/Assets/StreamingAssets/FmodBuild";
+                //Debug.Log("test:"+defaultBankFolder);
+
             }
 
             string[] bankPlatforms = EditorUtils.GetBankPlatforms();
